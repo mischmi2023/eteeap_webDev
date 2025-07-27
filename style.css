@@ -14,11 +14,12 @@ html {
     scroll-behavior: smooth;
 }
 
+/*Desktop Nav Styles*/
 nav, .nav-links {
     display: flex;
 }
 
-.nav {
+nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
