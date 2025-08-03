@@ -30,3 +30,43 @@ nav {
     list-style: none;
     font-size: 1.5rem;
 }
+
+.Logo {
+    font-size: 2rem;
+}
+.Logo:hover {
+    color: default;
+}
+
+/*Hamburger Menu Styles*/
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative
+    display: inline-block;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
