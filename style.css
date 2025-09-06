@@ -19,10 +19,10 @@ p {
   color: rg(85, 85, 85);
 }
 
-
 /*Transition*/
 
-a {
+a,
+.btn {
   transition: all 300ms ease;
 }
 
