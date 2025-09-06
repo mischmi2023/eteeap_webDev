@@ -15,6 +15,11 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  color: rg(85, 85, 85);
+}
+
+
 /*Transition*/
 
 a {
