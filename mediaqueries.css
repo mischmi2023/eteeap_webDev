@@ -1,13 +1,7 @@
 @media screen and (max-width: 1200px) {
-<<<<<<< HEAD
-    #desktop-nav {
-        display: none;
-    }
-=======
   #desktop-nav {
     display: none;
   }
->>>>>>> a3a2ec58d0ae94a15ddb59febd0b42bb9ca6185d
 
   #hamburger-nav {
     display: flex;
