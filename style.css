@@ -16,7 +16,7 @@ html {
 }
 
 p {
-  color: rg(85, 85, 85);
+  color: rgb(85, 85, 85);
 }
 
 /*Transition*/
@@ -309,6 +309,7 @@ section {
 /* Experience Section */
 
 #experience {
+  text-align: center;
   position: relative;
 }
 
@@ -348,6 +349,7 @@ article .icon {
 /* Projects Section */
 
 #projects {
+  text-align: center;
   position: relative;
 }
 
