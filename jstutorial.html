@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Javascript Tutorial</title>
+  </head>
+  <body>
+    <h1 id ="header">Hello</h1>
+    <input type = "text" id ="inp"/>
+    <script type="text/javascript">
+        /*
+
+        DISPLAYING OUTPUTS
+
+        console.log("Hello this is a log.");
+        document.write("Hello World!");
+        console.warn("Warning!");
+        console.error("This is an error!!!");
+        
+            document.getElementById("header").innerHTML = "This is a sample.";
+            document.getElementById("inp").value = "Hello World!";
+        */
+
+        /* DATA TYPES
+        String
+        Number
+        boolean - true or false
+        undefined
+        null
+
+        OPERATORS
+        */
+
+        var x = 69; 
+        x = 71;
+        console.log(x);
+
+        var name = "Mike";
+        console.log(name);
+
+        var x = 69;
+        var y = 9;
+        var z = x + y;
+        console.log(z);
+        document.write(z);
+
+        //x =  x + 5;
+        x += 5;
+        console.log(x);
+        document.writeln(x);
+       
+        x ++;
+        console.log(x);
+        document.writeln(x);
+
+        var str = "hello";
+        var str1 = "world";
+        var w = str + " " + y;
+        console.log(w);
+        document.write(str + " " + str1);
+
+        var strng = "hello" - 5;
+        console.log(strng);
+
+        /* Order of operations
+        B brackets
+        E exponents
+        D division
+        M
+        A
+        S
+
+        */
+
+        var result = (4 * 5) /3 + 9 -2;
+        console.log(result);
+        document.write(result);
+
+        var str2 = "hi";
+        str2 += "hi"; // str2 = str2 = "hi"
+        console.log(str2);
+
+        //Booelan Operations and Conditions
+
+        var a = 6;
+        var b = 9;
+        var c = a < b;
+        console.log(c);
+
+        var q = 6;
+        var w = "6";
+        var e = q == w; // it compares the values and ignore the type.
+        console.log(e);
+
+        var r  = 8;
+        var t = "8";
+        var u = r == t;
+        console.log(u);
+
+        var i = q !== w;
+        console.log(i);
+
+        var names = "Mike";
+        var nickname = "mike";
+        console.log(names == nickname);
+
+        var m = 9;
+        var n = 6;
+        console.log(name == nickname && m > n && m != n);
+        console.log(names != nickname || m < n);
+        console.log(name == nickname || (m < n && m != n));
+        console.log(!(m<n) && !(name == nickname && m <= n));
+     </script>
+   </body>
+  </html>
