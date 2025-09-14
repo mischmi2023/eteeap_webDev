@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Javascript Tutorial</title>
+  </head>
+  <body>
+    <h1 id ="header">Hello</h1>
+    
+    <button onclick="red()"> RED </button>
+     <button onclick="green()"> GREEN </button>   
+        
+        <script type="text/javascript">
+
+            function add(a, b){
+                return a + b;
+            }
+
+            var x = add(5, 5);
+            console.log(x);
+            var y = add(5, 7);
+            console.log(y);
+            console.log(add(234, 6));
+
+            function red(){
+                console.log("RED");
+                document.getElementById("header").innerHTML = "RED";
+                document.body.style.backgroundColor = "red";
+            }
+             function green(){
+                console.log("GREEN");
+                 document.getElementById("header").innerHTML = "GREEN";
+                 document.body.style.backgroundColor = "green";
+            }
+
+
+
+
+    </script>
+ </body>
+</html>
