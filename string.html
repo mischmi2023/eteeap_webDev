@@ -7,9 +7,20 @@
 </head>
 <body>
    
+    <input type="text" id="inp"/>
+    <button onclick="pressed()">Click</button>
+     <p id="output"></p>
 
     <script type="text/Javascript">
+        function pressed(){
+            var text = document.getElementById("inp").value;
+            //output.innerHTML = text.toUpperCase();
+            output.innerHTML = text.trim();
+            console.log(text);
+            console.log(text.length);
 
-        
+            //output.innerHTML = "You typed: + text.trim() + 5;
+        }
+
     </script>
 </body>
