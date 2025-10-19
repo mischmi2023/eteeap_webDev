@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/Javascript">
+    
+    let i = 0;
+    while(i<10)
+    {
+        console.log(i);
+        i++;
+        if(i == 5)
+        {
+        break
+        }
+    }
+    console.log("Break");
+
+    //Loop thru Array
+
+    let arr = ["Bal", "Gas", "Mel"];
+    let j = 0;
+    while (j < arr.length)
+    {
+    console.log(arr[j]);
+    j++;
+    }
+
+    let array = [];
+    var k = 0;
+    while(k <= 100)
+    {
+        array.push(k);
+        k++;
+    }
+    console.log(array);
+
+    let cond = false;
+    do{
+        console.log("run");
+
+    }while(cond);
+
+    //  FOR LOOP
+
+    for(let l = 0; l<10; l++)
+    {
+        console.log(l+1 + "." + " Hello World!");
+    }
+
+    //Loop in an array
+
+    function findInArray(array, value)
+    {
+        for(let m = 0; m<array.length; m++)
+    {
+        if(array[m] == value)
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+    let array = [1,2,3,4,5,6,7,"Mel","Mike", true];
+    console.log(findInArray(array, "Mel"));
+    console.log(findInArray(array, "Mike"));
+
+    function nSquared(n)
+    {
+        for(let o = 0; o < n; o++)
+    {
+        for (let p =0; p< n; p++)
+    {
+        console.log("Run");
+    }
+    }
+    }
+    nSquared(5);
+    </script>
+</body>
+</html>
