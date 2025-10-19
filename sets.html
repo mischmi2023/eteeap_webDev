@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/Javascript">
+
+        //Sets - is an ordered collection of unique elements. 
+        let _set = new Set();
+        _set.add(8).add(88).add(9).add(7).add(8);
+        console.log(_set);
+        console.log(_set.has(2));
+        console.log(_set.has(9));
+        console.log(_set.size);
+        console.log(_set.delete(8));
+        console.log(_set);
+        console.log(_set.size);
+        console.log(_set.values());
+
+        for (var entry of _set.values())
+    {
+        console.log(entry);
+    }   
+
+    var set1 = new Set([1,2,3,4,4,4,4,5,2]);
+    console.log(set1);
+
+    var set2 = new Set("Hello World");
+    console.log(set2);
+
+    function test(x)
+    {
+        console.log(x);
+    }
+
+    var set3 = new Set("Heo Word");
+    set3.forEach(test);
+
+    function test(x)
+    {
+        if(x == "o")
+    {
+         console.log("Found it " + x);
+    }
+    else {
+        console.log("Nope");
+    }
+}
+      
+    var set4 = new Set("Hooooy");
+    set4.forEach(test);
+    </script> 
+ </body>
+</html>

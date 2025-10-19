@@ -21,7 +21,24 @@
         element = 5;
         console.log(element);
     }
-    console.log(element);
+
+    //console.log(element); //error due to using element
+
+    for(let j=0; j<arr.length; j++)
+    {
+        console.log(arr[j]);
+        arr[j] = 5;
+        console.log(arr[j]);
+    }
+    console.log(arr);
+
+    //String is also iterable
+
+    var x = "hello";
+    for(var k = 0; k <x.length; k++)
+    {
+        console.log(x[k]);
+    }
     </script>
     </body>
 </html>
