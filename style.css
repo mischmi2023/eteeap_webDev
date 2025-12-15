@@ -360,8 +360,10 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%
-  height: 90%
+  width: 100%
+  height: auto
+  display: block;
+  margin: 0 auto; /* centers the image */
 }
 
 .project-title {
