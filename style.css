@@ -355,7 +355,7 @@ article .icon {
 /* Projects Section */
 
 #projects {
-  text-align: center;
+  position: relative;
 }
 
 /* Project Card */
